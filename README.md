@@ -29,12 +29,18 @@ A simple **Java console-based CRUD project** that performs user Registration, Lo
 ---
 
 ## 🏗️ Project Structure
-com.crud.connections → Contains DB connection details
-com.crud.registration → Handles user registration
-com.crud.login → Manages login and session flow
-com.crud.update → Handles user info updates
-com.crud.delete → Deletes user account
-com.crud.datacheck → Validation utilities
+com.crud.connections → Contains DB connection details,
+
+com.crud.registration → Handles user registration,
+
+com.crud.login → Manages login and session flow,
+
+com.crud.update → Handles user info updates.
+
+com.crud.delete → Deletes user account,
+
+com.crud.datacheck → Validation utilities,
+
 
 
 ---
@@ -64,10 +70,11 @@ CREATE TABLE stutable (
 Using terminal:
 
 javac -d bin src/com/crud/**/*.java
-java -cp bin com.crud.main.Main
+
+java -cp bin com.crud.main.JDBC_CRUD_PROJECT
 
 
-Or simply run Main.java in your IDE (Eclipse / IntelliJ).
+Or simply run JDBC_CRUD_PROJECT.java in your IDE (Eclipse / IntelliJ).
 
 ### 💻 How It Works
 
@@ -81,33 +88,46 @@ Delete – Deletes user record permanently
 
 Loop/Navigation – After each action, user can continue or exit
 
-🧾 Example Console Flow
+### 🧾 Example Console Flow
 
----------------------
    Registration Page
 ---------------------
 Enter Full Name : Bruce Wayne
+
 Enter Email : bruce@wayne.com
+
 Enter Password : 12345
+
 Enter Address : Gotham
 
+
 ✅ You are Registered Successfully
+
 Click 1 to login or any key to exit:
+
 
 ---------------------
       Login Page
----------------------
+
 Enter Email : bruce@wayne.com
+
 Enter Password : 12345
 
+
 Hello Bruce Wayne
+
 Your Details:
+
 ID: 1
+
 Email: bruce@wayne.com
+
 Address: Gotham
+
 
 Enter 1 to delete or 2 to update or any key to exit:
 
+---------------------
 
 ### 🧹 Best Practices Implemented
 
@@ -125,9 +145,12 @@ Enter 1 to delete or 2 to update or any key to exit:
 ### 🏁 Author
 
 👤 Vikram Kumar Choudhary
+
 💼 Java & Spring Developer | DSA Enthusiast
 
+
 ⭐️ Support
+
 
 If you found this project useful, give it a ⭐ on GitHub and share it!
 
