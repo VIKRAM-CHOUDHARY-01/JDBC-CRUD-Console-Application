@@ -148,9 +148,3 @@ Enter 1 to delete or 2 to update or any key to exit:
 
 💼 Java & Spring Developer | DSA Enthusiast
 
-
-⭐️ Support
-
-
-If you found this project useful, give it a ⭐ on GitHub and share it!
-
